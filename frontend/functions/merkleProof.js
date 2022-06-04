@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
   const wallet = event.queryStringParameters && event.queryStringParameters.wallet
   const chain = event.queryStringParameters && event.queryStringParameters.chain
   const contract_address = event.queryStringParameters && event.queryStringParameters.contract
-  const url = 'https://api.nftport.xyz/v0/me/contracts/collections?';
+  const url = 'https://app.pinata.cloud/keys';
 
   const options = {
     method: 'GET',
