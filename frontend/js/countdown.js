@@ -12,7 +12,7 @@ function countdown() {
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
     if (diff < 0) {
-      clockdiv.style.display = "none";
+      clockdiv.style.display = "true";
       clearInterval(countdownfunction);
     } else {
       clockdiv.style.display = "block";
